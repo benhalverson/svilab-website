@@ -1,0 +1,62 @@
+body {
+  background: url('//placehold.it/1920x1080') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family:  'Open Sans', 'Helvetica Neue', sans-serif' !important;
+}
+
+.jumbotron {
+  opacity: 0.5;
+}
+
+.text-color{ 
+  color: yellow;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans Condensed", sans-serif, sans-serif;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.nav-link {
+    margin-right: 30px;
+}
+
+.box-overlay {
+  transform: translate(-50%, -50%);
+  width: 70%;
+  position: absolute;
+  left: 74%;
+  width: 75%;
+}
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    width: 1000px;
+}
+}
+/* .box-overlay:before{
+  border-bottom: 100px solid red;
+	border-left: 50px solid transparent;
+	height: 50px;
+  width: 100px;
+  color: red;
+} */
+
+li {
+  padding-bottom: 6px;
+}
+
+p {
+  margin-bottom: 0.9rem;
+}

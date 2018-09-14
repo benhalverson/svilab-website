@@ -1,0 +1,19 @@
+{
+  "name": "svilabwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -b build",
+    "sass": "node-sass --watch src/styles/scss --output src/styles/css",
+    "sass:build": "node-sass src/styles/scss --output src/styles/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Halverson <benhalverson33@gmail.com> (http://benhalverson.me/)",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "4.1.3",
+    "d3": "5.7.0",
+    "jquery": "3.3.1"
+  }
+}
