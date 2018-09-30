@@ -1,5 +1,5 @@
 body {
-  background: url('//placehold.it/1920x1080') no-repeat center center fixed;
+  /* background: url('//placehold.it/1920x1080') no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -11,11 +11,32 @@ body {
   opacity: 0.5;
 }
 
-.text-color{ 
-  color: yellow;
+.text-spacing,
+.text-color {
+
+  padding-bottom: 0;
+  font-weight: bold;
+  line-height: 0;
 }
 
+.text-spacing {
+  font-size: 2rem;
+}
 
+.color {
+  color: red;
+}
+
+.programs-offered-card {
+  padding-top: 0.15rem;
+  padding-right: 1.25rem;
+  padding-bottom: 0.15rem;
+  padding-left: 1.25rem;
+}
+
+h5.mb-0 {
+  padding-top: 0;
+}
 h1,
 h2,
 h3,
@@ -25,7 +46,10 @@ h6 {
   font-family: "Open Sans Condensed", sans-serif, sans-serif;
   font-weight: 200;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 19px;
+
+}
 
 .nav-link {
     margin-right: 30px;
